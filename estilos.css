@@ -1,0 +1,95 @@
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+#menu a{ 
+
+    font-size: 18px;
+    font-weight: 400;
+
+}
+#bg.color{
+    background: black!important;
+}
+
+
+.carousel-inner{
+    max-height: 400px;
+}
+/*----------------media query--------------*/
+
+
+@media (max-width:768px) { 
+    #intro  {
+        width:90% !important ;
+    }
+    .servicios-fila {
+        width: 100% !important;
+        text-align: center;
+        justify-content:center;
+    }
+}
+
+@media (max-width:768px) { 
+    #quienessomos  {
+        width:90% !important ;
+        margin-top: 100px;
+    }
+    .servicios-fila {
+        width: 100% !important;
+        text-align: center;
+        justify-content:center;
+    }
+    #infopersonal {
+        margin-top: 100px;
+        text-align: center;
+        justify-content:left;
+        color: antiquewhite;
+        text-decoration: none;
+    }
+}
+
+@media (max-width:576px) {
+    .icono-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+}
+
+/*-----------------contactos-------------*/
+
+#bg-contacto {
+    position:relative;
+    top: -130px;
+
+}
+
+#seccion-contacto {
+
+    background-color: #2175c3;
+    min-height: 500px;
+    position:relative;
+}
+#contenedor-formulario {
+    position:absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(194, 188, 188);
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#footer{
+    background-color: black;
+    color: bisque;
+    padding: 30px;
+
+}
+
