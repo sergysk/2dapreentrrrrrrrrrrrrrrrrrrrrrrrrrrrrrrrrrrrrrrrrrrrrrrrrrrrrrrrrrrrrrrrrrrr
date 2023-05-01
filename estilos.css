@@ -1,5 +1,5 @@
 
-
+    
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
@@ -9,8 +9,10 @@ body{
 }
 #menu a{ 
 
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
+    
+    
 
 }
 #bg.color{
@@ -21,7 +23,7 @@ body{
 .carousel-inner{
     max-height: 400px;
 }
-/*----------------media query--------------*/
+/*----------------media query---------------------------------------------------------------------------------------------------------------*/
 
 
 @media (max-width:768px) { 
@@ -45,13 +47,16 @@ body{
         text-align: center;
         justify-content:center;
     }
-    #infopersonal {
-        margin-top: 100px;
-        text-align: center;
-        justify-content:left;
+    #dondeestamos {
+        width: 100% !important;
+        background-color: #0b3061;
+        justify-content: left;
         color: antiquewhite;
-        text-decoration: none;
+        text-align: center;
+        
+
     }
+    
 }
 
 @media (max-width:576px) {
@@ -59,33 +64,84 @@ body{
     flex-wrap: wrap;
     justify-content: center !important;
 }
+#dondeestamos {
+    width: 100% !important;
+    background-color: #0b3061;
+    justify-content: left;
+    color: antiquewhite;
+    text-align: center;
 
 }
+}
+#dondeestamos {
+    width: 100% !important;
+    background-color: #0b3061;
+    justify-content: left;
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: 1px 1px 5px #59bffd;
+    padding-top: 30px;
+}
+/*-------------------quienes somos---------------------------------------------------------------------------------------------------*/
 
-/*-----------------contactos-------------*/
+#quien {
+    background-image: url(./img/background-3063287.jpg);
+    background-repeat: no-repeat;
+   
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+    color: antiquewhite;
+    
+}
 
-#bg-contacto {
+
+#equipo {
+    position: relative;
+    box-sizing: 5px;
+    display: block;
+    justify-content: center;
+}
+
+
+
+/*-----------------contactos-----------------------------------------------------------------------------------------------------------*/
+
+/*#bg-contacto {
     position:relative;
     top: -130px;
 
-}
+}*/
 
 #seccion-contacto {
 
-    background-color: #2175c3;
-    min-height: 500px;
-    position:relative;
+    background-color: #465a6c;
+    
+    position: relative;
+    padding: 100px;
+    margin-top: 100px;
+   
+    
 }
 #contenedor-formulario {
-    position:absolute;
-    top: 30px;
-    left: 50%;
+    
+    position:relative;
+    top: 60px;
+    left: 45% ;
     transform: translate(-50%, -50%);
-    background: rgb(194, 188, 188);
+    background: rgb(173, 171, 180);
     border-radius: 5px;
-    max-width: 500px;
+    max-width: 70%;
+    
 }
 
+#infopersonal {
+    background: #0b3061;
+    padding: 100px;
+    color: antiquewhite;
+    text-decoration: none;
+    font: 1em ;
+}
 #footer{
     background-color: black;
     color: bisque;
